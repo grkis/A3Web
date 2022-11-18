@@ -1,13 +1,14 @@
-#Group 8 initial plan :open_book:
-##Web concept
+# Group 8 initial plan :open_book:
+
+## Web concept
 :globe_with_meridians: GIS Consulting Company :globe_with_meridians:
-##Pages
+## Pages
 - Landing Page
 - About Us Page
 - Socials (Contact us)
 - Project showcase/Offered service (1 page per person) 
 - Pricing 
-##General Tasks
+## General Tasks
 [ ] Landing Page
   [ ] Navigation/Menu (Lead: Grace)
   [ ] Body content (Lead: Ryan)
@@ -34,7 +35,7 @@
   [ ] Body content (William)
   [ ] Responsive web design + Layout (Lead: Grace) 
   [ ] Javascript components (Lead:)
-##Notes
+## Notes
 - Template and general layout of the page decided as a group 
 - Single group-authored CSS document 
 - Code consistency
