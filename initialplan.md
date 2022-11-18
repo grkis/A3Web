@@ -9,32 +9,32 @@
 - Project showcase/Offered service (1 page per person) 
 - Pricing 
 ## General Tasks
-[ ] Landing Page
-  [ ] Navigation/Menu (Lead: Grace)
-  [ ] Body content (Lead: Ryan)
-  [ ] Responsive web design + Layout (Lead: Grace)
-  [ ] Javascript components (Lead:)
+- [ ] Landing Page
+  - [ ] Navigation/Menu (Lead: Grace)
+  - [ ] Body content (Lead: Ryan)
+  - [ ] Responsive web design + Layout (Lead: Grace)
+  - [ ] Javascript components (Lead:)
 
-[ ] About Us Page 
-  [ ] Body content (Lead: Ryan)
-  [ ] Responsive web design + Layout (Lead: Grace)
-  [ ] Javascript components (Lead:)
+-[ ] About Us Page 
+  - [ ] Body content (Lead: Ryan)
+  - [ ] Responsive web design + Layout (Lead: Grace)
+  - [ ] Javascript components (Lead:)
 
-[ ] Socials (Contact us)
-  [ ] Creating social media accounts and linking it to the page (Lead: Chris)
-  [ ] Responsive web design + Layout (Lead: Grace)
-  [ ] Javascript components (Lead:)
+-[ ] Socials (Contact us)
+  - [ ] Creating social media accounts and linking it to the page (Lead: Chris)
+  - [ ] Responsive web design + Layout (Lead: Grace)
+  - [ ] Javascript components (Lead:)
 
-[ ] Project showcase
-  [ ] Each person is responsible for their service offered to clients
-  [ ] Grace's product: Implementation of separated bike lanes (consult, planning) 
-  [ ] Chris's product:
-  [ ] Ryan's product:
-  [ ] William's product:
-[ ] Pricing 
-  [ ] Body content (William)
-  [ ] Responsive web design + Layout (Lead: Grace) 
-  [ ] Javascript components (Lead:)
+-[ ] Project showcase
+  - [ ] Each person is responsible for their service offered to clients
+  - [ ] Grace's product: Implementation of separated bike lanes (consult, planning) 
+  - [ ] Chris's product:
+  - [ ] Ryan's product:
+  - [ ] William's product:
+- [ ] Pricing 
+  - [ ] Body content (William)
+  - [ ] Responsive web design + Layout (Lead: Grace) 
+  - [ ] Javascript components (Lead:)
 ## Notes
 - Template and general layout of the page decided as a group 
 - Single group-authored CSS document 
