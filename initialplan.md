@@ -33,7 +33,7 @@
   - [ ] Ryan's product:
   - [ ] William's product:
 - [ ] Pricing 
-  - [ ] Body content (William)
+  - [ ] Body content (Lead: William)
   - [ ] Responsive web design + Layout (Lead: Grace) 
   - [ ] Javascript components (Lead:)
 ## Notes
