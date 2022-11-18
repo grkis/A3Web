@@ -57,5 +57,5 @@
 - Template and general layout of the page decided as a group 
 - Single group-authored CSS document 
 - Code consistency
-  - Variable names: Lower case? Upper case? Mix? 
+  - Variable names: Lower case. No single letter variables  
   - Comments: Include inspirations, inspiration source (if applicable), include name of the owner of the section (follow assignment guide) 
