@@ -1,5 +1,8 @@
 # Group 8 initial plan :open_book:
 
+## Group members
+Chris Broom, Ryan Bye, William Inglis, Grace Kim 
+
 ## Web concept
 :globe_with_meridians: GIS Consulting Company :globe_with_meridians:
 
