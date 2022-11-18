@@ -28,7 +28,7 @@
 
 - [ ] Project showcase
   - [ ] Each person is responsible for their service offered to clients
-  - [ ] Grace's product: Implementation of separated bike lanes (consult, planning) 
+  - [ ] Grace's product: Implementation of separated bike lanes (consult, planning) around a city
   - [ ] Chris's product:
   - [ ] Ryan's product:
   - [ ] William's product:
