@@ -32,7 +32,7 @@ Chris Broom, Ryan Bye, William Inglis, Grace Kim
 - [ ] Project showcase
   - [ ] Each person is responsible for their service offered to clients
   - [ ] Grace's product: Implementation of separated bike lanes (consult, planning) around a city
-  - [ ] Chris's product: 
+  - [ ] Chris's product: TBD
   - [ ] Ryan's product: Implementation of disaster management and mitigation for/from hurricanes
   - [ ] William's product: Implementation of trip planning for provincal parks in Ontario
  
