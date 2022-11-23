@@ -55,7 +55,7 @@ Chris Broom, Ryan Bye, William Inglis, Grace Kim
  - Go through rubric 
  - Edit each other's work 
  - Check for errors 
- - Dec 9: SUBMIT 
+ - Dec 9: SUBMIT and be FINISHED
 ## Notes
 - Template and general layout of the page decided as a group 
 - Single group-authored CSS document 
