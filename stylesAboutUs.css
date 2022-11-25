@@ -67,3 +67,19 @@
     font-weight: bold;
     margin-right: 8px;
 } 
+
+.names button{
+    width:100%;
+    padding : 14px 0;
+    background: #573DFC;
+    color:rgb(0, 0, 0);
+    font: size 15px;
+    border:1px solid #e330d4;
+    border-radius:6px;
+    margin-top:30px;
+    cursor:pointer; 
+}
+
+.names button:hover{
+    background: #e330d4;
+}
