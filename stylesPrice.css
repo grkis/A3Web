@@ -50,7 +50,7 @@
     font-weight: 500
 }
 
-.price col ul{
+.price-col ul{
     text-align: left;
     margin: 20px 0;
     color: #fff;
@@ -71,7 +71,7 @@
 .price-col button{
     width:100%;
     padding : 14px 0;
-    background: transparent;
+    background: #573DFC;
     color:rgb(0, 0, 0);
     font: size 15px;
     border:1px solid #e330d4;
