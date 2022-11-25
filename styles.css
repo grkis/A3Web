@@ -34,11 +34,20 @@ nav {
  }
   
  .background1 {
-    background: #9137bb;
+    background: #F0FFF;
+	border-style: solid
  }
   
 .background2 {
-  background: #573DFC;
+  min-height: 100vh;
+  background:linear-gradient(rgba(198, 59, 250,.8),rgba(198, 59, 250,.8)), url(https://upload.wikimedia.org/wikipedia/commons/0/0e/World_Bedrock_Digital_Elevation_Model.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+  overflow:hidden;
+  position: relative;
+  border-style: solid
 }
 
 .container {
