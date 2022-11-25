@@ -1,0 +1,85 @@
+/* Template for Pricing Page */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #573DFC;
+    opacity: 50%;
+}
+
+.container h2{
+    color: #fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.price-row{
+    width:90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); 
+    grid-gap: 25px;
+}
+
+.price-col{
+    background: #000000;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color:#fff;
+    text-align: center 
+}
+
+.price-col p{
+    font-size: 20px;
+
+}
+
+.price-col h3{
+    font-size: 44px;
+    margin: 20px 0px 40px; 
+    font-weight: 500
+}
+
+.price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #fff;
+    list-style: none;
+}
+
+.price-col ul li{
+    margin: 15px 0;
+}
+
+.price-col ul li::before{
+    content:'\2022';
+    color:#e330d4;
+    font-weight: bold;
+    margin-right: 8px;
+} 
+
+.price-col button{
+    width:100%;
+    padding : 14px 0;
+    background: #573DFC;
+    color:rgb(0, 0, 0);
+    font: size 15px;
+    border:1px solid #e330d4;
+    border-radius:6px;
+    margin-top:30px;
+    cursor:pointer; 
+}
+
+.price-col button:hover{
+    background: #e330d4;
+}
