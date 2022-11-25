@@ -61,7 +61,7 @@
     margin: 15px 0;
 }
 
-.price-col ul li before{
+.price-col ul li::before{
     content:'\2022';
     color:#e330d4;
     font-weight: bold;
@@ -71,7 +71,7 @@
 .price-col button{
     width:100%;
     padding : 14px 0;
-    background: trnasparent;
+    background: transparent;
     color:rgb(0, 0, 0);
     font: size 15px;
     border:1px solid #e330d4;
