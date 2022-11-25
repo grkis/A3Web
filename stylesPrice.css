@@ -53,7 +53,7 @@
 .price col ul{
     text-align: left;
     margin: 20px 0;
-    color: #ddd;
+    color: #fff;
     list-style: none;
 }
 
@@ -72,7 +72,7 @@
     width:100%;
     padding : 14px 0;
     background: trnasparent;
-    color:#fff;
+    color:rgb(0, 0, 0);
     font: size 15px;
     border:1px solid #e330d4;
     border-radius:6px;
