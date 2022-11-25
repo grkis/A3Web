@@ -1,4 +1,4 @@
-/* Template for Pricing Page */
+/* Template for About Us Page */
 
 *{
     margin:0;
@@ -31,7 +31,7 @@
     grid-gap: 25px;
 }
 
-.price-col{
+.names{
     background: #000000;
     padding: 10% 15%;
     border-radius: 10px;
@@ -39,47 +39,31 @@
     text-align: center 
 }
 
-.price-col p{
+.names p{
     font-size: 20px;
 
 }
 
-.price-col h3{
+.names h3{
     font-size: 44px;
     margin: 20px 0px 40px; 
     font-weight: 500
 }
 
-.price-col ul{
+.names ul{
     text-align: left;
     margin: 20px 0;
     color: #fff;
     list-style: none;
 }
 
-.price-col ul li{
+.names ul li{
     margin: 15px 0;
 }
 
-.price-col ul li::before{
+.names ul li::before{
     content:'\2022';
     color:#e330d4;
     font-weight: bold;
     margin-right: 8px;
 } 
-
-.price-col button{
-    width:100%;
-    padding : 14px 0;
-    background: #573DFC;
-    color:rgb(0, 0, 0);
-    font: size 15px;
-    border:1px solid #e330d4;
-    border-radius:6px;
-    margin-top:30px;
-    cursor:pointer; 
-}
-
-.price-col button:hover{
-    background: #e330d4;
-}
