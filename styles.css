@@ -190,6 +190,12 @@ nav {
    list-style: square;
    list-style-position: inside;}
 
+   .background3{
+   background: #573DFC;
+   border-style: solid;
+   opacity: 75%;
+   }
+   
   /* Grace's Page CSS END */
  @media screen and (max-width: 768px) {
     .container {
