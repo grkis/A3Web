@@ -195,7 +195,13 @@ nav {
    border-style: solid;
    opacity: 75%;
    }
-   
+
+   image.centered{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
   /* Grace's Page CSS END */
  @media screen and (max-width: 768px) {
     .container {
