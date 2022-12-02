@@ -14,6 +14,13 @@ nav {
     align-items: center;
     padding: 0rem;
  }
+
+ .nav-itens{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+ }
   
  .logo {
     color: #000;
@@ -33,14 +40,15 @@ nav {
     color: #fff;
  }
 
- .navbar .dropdown:hover .dropbtn {
-   background-color: #573DFC;
+ .dropdown {
+
  }
  
+
  .dropdown-content {
    display: none;
    position: absolute;
-   background-color: #000;
+   background-color: #fff;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    z-index: 1;
@@ -57,10 +65,11 @@ nav {
 
  .dropdown-content a:hover {
    background-color: #ddd;
+   color: #573DFC;
  }
  
  .dropdown:hover .dropdown-content {
-   display: block;
+   display: flex;
  }
  
   
