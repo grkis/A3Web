@@ -137,13 +137,6 @@ nav {
     height: 100%;
  }
 
- #list1{
-   text-align: center;
-   color: #000;
-   list-style: square;
-   list-style-position: inside;
- }
-
  /* Navigation Dropdown Menu CSS*/
 
  .dropdown {
@@ -188,7 +181,16 @@ nav {
  }
 
   /* Navigation Dropdown Menu CSS END*/
-  
+
+  /* Grace's Page CSS START*/ 
+
+  #list1{
+   text-align: center;
+   color: #000;
+   list-style: square;
+   list-style-position: inside;}
+
+  /* Grace's Page CSS END */
  @media screen and (max-width: 768px) {
     .container {
       grid-template-columns: 1fr;
