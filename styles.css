@@ -15,7 +15,7 @@ nav {
     padding: 0rem;
  }
 
- .nav-itens{
+ .nav-items{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,10 +38,6 @@ nav {
   
  nav a:hover {
     color: #fff;
- }
-
- .dropdown {
-
  }
  
 
