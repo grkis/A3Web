@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bike Infrastructure</title>
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+    
+
+      <body>
+
+        <!-- Navigation Start. Keep this consistent throughout the pages-->
+        <nav>
+          <div class="logo">NAME</div>
+          <div class="nav-items">
+            <a href="#">Home</a> 
+            <a href="aboutus.html">About Us</a> 
+            <a href="#">Products</a> 
+            <a href="pricing.html">Pricing</a> 
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </nav>
+        <!-- Navigation End. Keep this consistent throughout the pages-->
+
+        <section class="background1">
+          <div class="container">
+            <div class="column-center">
+              <h1> Bike Infrastructure Implementation</h1>
+              <p>
+                Information about the product
+              </p>
+              <image src="image/sample.jpg" alt="sample" class = "image"> </image>
+            </div>
+            <div class="column-right">
+              <h1> Something something something</h1>
+              <p> blahblahblah more info blh blalladl</p>
+            </div>
+            <div class = "column-center">
+              <h1> Summary </h1>
+              <ul id="list1"> 
+                <li> Item 1 </li>
+                <li> Item 2 </li>
+                <li>Item 3 </li>
+              </ul> 
+          </div>
+
+    
+    </body>
+</html>
