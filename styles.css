@@ -249,14 +249,14 @@ nav {
     'Lucida Sans', Arial, sans-serif;
 }
 
-.container{
+.containerAU{
   width: 100%;
   min-height: 100vh;
   background: #573DFC;
   opacity: 50%;
 }
 
-.container h2{
+.containerAU h2{
   color: #fff;
   font-size: 32px;
   padding: 50px 0;
