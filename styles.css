@@ -215,7 +215,7 @@ nav {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
+  width: 33.33%;
   padding: 10px;
   height: 700px;
 }
@@ -228,7 +228,7 @@ nav {
 }
 
 .imground {
-  width: 200px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -246,7 +246,7 @@ nav {
 }
 
 .h4{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
 }
 
