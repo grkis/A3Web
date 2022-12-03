@@ -208,3 +208,23 @@ nav {
       grid-template-columns: 1fr;
    }
  }
+
+  /* Chris's Page CSS START*/
+
+
+.containerContactUs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 95vh;
+  padding: 4rem;
+}
+
+.columninner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+}
+  
