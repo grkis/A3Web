@@ -229,4 +229,8 @@ nav {
 
 .imground {
   border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
