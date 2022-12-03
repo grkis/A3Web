@@ -212,25 +212,22 @@ nav {
   /* Chris's Page CSS START*/
 
 
-.containerContactUs{
-  height:100px;
-  width:500px;
-  border:2px dotted #F00;
-  border-left:none;
-  border-right:none;
-  text-align:center;
-  }
-  .containerContactUs div{
-  display: inline-block;
-  border-left: 2px dotted #ccc;
-  vertical-align: middle;
-  line-height: 100px;
-  } 
+/* Create four equal columns that floats next to each other */
+.columnAU {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 800px;
+}
 
-.column-left-ContactUs{ float: left; width: 29%;  height:400px;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.column-right-ContactUs{ float: right; width: 29%;  height:400px; border-right: 2px dotted #ccc;
-}
-.column-center-ContactUs{ display: inline-block; width: 29%; height: 400px;
-}
-  
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
