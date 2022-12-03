@@ -232,6 +232,7 @@ nav {
 .imground {
   width: 150px;
   border-radius: 50%;
+  justify-content: center;
 }
 
  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
@@ -244,11 +245,13 @@ nav {
 .column h1{
   font-size: 1.5rem;
   font-style: bold;
+  justify-content: center;
 
 }
 
 .column h2{
   font-size: 1.2rem;
+  justify-content: center;
 
 }
 
