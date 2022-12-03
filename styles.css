@@ -211,7 +211,9 @@ nav {
 
   /* Chris's Page CSS START*/
 
-
+* {
+    box-sizing: border-box;
+}
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
