@@ -253,7 +253,13 @@ nav {
 
 .h4{
   font-size: 1.2rem;
+  font-style: bold;
   text-align: center;
 
+}
+
+.h5{
+  font-size: 1.2rem;
+  text-align: center;
 }
 
