@@ -217,6 +217,7 @@ nav {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
+  border: #000;
   width: 33.33%;
   padding: 10px;
   height: 700px;
@@ -232,7 +233,8 @@ nav {
 .imground {
   width: 150px;
   border-radius: 50%;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
@@ -245,13 +247,13 @@ nav {
 .h3{
   font-size: 1.5rem;
   font-style: bold;
-  justify-content: center;
+  text-align: center;
 
 }
 
 .h4{
   font-size: 1.2rem;
-  justify-content: center;
+  text-align: center;
 
 }
 
