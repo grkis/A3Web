@@ -227,10 +227,10 @@ nav {
   line-height: 100px;
   } 
 
-.column-left-ContactUs{ float: left; width: 29%;  height:100px;
+.column-left-ContactUs{ float: left; width: 29%;  height:400px;
 }
-.column-right-ContactUs{ float: right; width: 29%;  height:100px; border-right: 2px dotted #ccc;
+.column-right-ContactUs{ float: right; width: 29%;  height:400px; border-right: 2px dotted #ccc;
 }
-.column-center-ContactUs{ display: inline-block; width: 29%; height:100px;
+.column-center-ContactUs{ display: inline-block; width: 29%; height: 400px;
 }
   
