@@ -220,6 +220,13 @@ nav {
   height: 800px;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .imground {
   width: 200px;
   border-radius: 50%;
