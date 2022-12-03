@@ -215,7 +215,7 @@ nav {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 23%;
+  width: 33%;
   padding: 10px;
   height: 700px;
 }
@@ -238,4 +238,15 @@ nav {
       width: 100%;
 }
 } 
+
+.h3{
+  font-size: 1.5rem;
+  font-style: bold;
+
+}
+
+.h4{
+  font-size: 1.3rem;
+
+}
 
