@@ -212,19 +212,25 @@ nav {
   /* Chris's Page CSS START*/
 
 
-.containerContactUs {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 95vh;
-  padding: 4rem;
-}
+.containerContactUs{
+  height:100px;
+  width:500px;
+  border:2px dotted #F00;
+  border-left:none;
+  border-right:none;
+  text-align:center;
+  }
+  .containerContactUs div{
+  display: inline-block;
+  border-left: 2px dotted #ccc;
+  vertical-align: middle;
+  line-height: 100px;
+  } 
 
-.columninner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: #000;
-    padding: 0rem 2rem;
+.column-left-ContactUs{ float: left; width: 32%;  height:100px;
+}
+.column-right-ContactUs{ float: right; width: 32%;  height:100px; border-right: 2px dotted #ccc;
+}
+.column-center-ContactUs{ display: inline-block; width: 33%; height:100px;
 }
   
