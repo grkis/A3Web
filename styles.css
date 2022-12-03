@@ -213,7 +213,7 @@ nav {
 
 
 /* Create four equal columns that floats next to each other */
-.columnAU {
+.column {
   float: left;
   width: 25%;
   padding: 10px;
