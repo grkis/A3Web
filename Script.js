@@ -31,6 +31,6 @@ function showSlides(n) {
 
 // Button General Function
 
-document.getElementById("myButton").onclick = function () {
-  window.location.href = "https://grkis.github.io/A3Web/contact.html";
+document.getElementById("myButton").onclick = function (url) {
+  let url = window.location.href = "https://grkis.github.io/A3Web/contact.html";
 }
