@@ -104,6 +104,14 @@ body {
 
  /* Navigation Dropdown Menu CSS*/
 
+ .logo {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
  nav {
   height: 80px;
   background: #573DFC;
@@ -124,13 +132,6 @@ body {
 }
 
 /* Links inside the navbar */
-.logo {
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0 2rem;
-}
 
 .navbar a {
   float: left;
