@@ -24,13 +24,13 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
 // Button General Function
 
-document.getElementById("myButton").onclick = function (url) {
-  let url = window.location.href = "https://grkis.github.io/A3Web/contact.html";
+document.getElementById("myButton").onclick = function () {
+  window.location.href = "https://grkis.github.io/A3Web/contact.html";
 }
