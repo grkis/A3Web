@@ -214,6 +214,7 @@ body {
   /* Hide the images by default */
   .mySlides {
     display: none;
+    padding-bottom: 3rem;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -230,7 +231,7 @@ body {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: #573DFC;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
