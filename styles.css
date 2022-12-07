@@ -112,16 +112,6 @@ body {
   padding: 0 2rem;
 }
 
- nav {
-  height: 80px;
-  background: #573DFC;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem;
-  height: 70px;
-}
-
  /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -129,6 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
 }
 
 /* Links inside the navbar */
