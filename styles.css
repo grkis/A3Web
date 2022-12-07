@@ -5,15 +5,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  
-  
- .logo {
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
- }
 
  .background1 {
     background: #fff;
@@ -113,6 +104,15 @@ body {
 
  /* Navigation Dropdown Menu CSS*/
 
+ nav {
+  height: 80px;
+  background: #573DFC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+}
+
  /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -182,7 +182,7 @@ body {
   display: block;
 }
 
-  /* Navigation Dropdown Menu CSS END*/
+/* Navigation Dropdown Menu CSS END*/
 
   /* Grace's Page CSS START*/ 
 
