@@ -28,3 +28,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+// Button General Function
+
+document.getElementById("myButton").onclick = function () {
+  location.href = "https://grkis.github.io/A3Web/contact.html";
+};
