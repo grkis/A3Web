@@ -104,6 +104,10 @@ body {
 
  /* Navigation Dropdown Menu CSS*/
 
+ .minimargin{
+  margin-right: 3rem;
+ }
+
  .logo {
   color: #000;
   font-size: 1.5rem;
@@ -119,6 +123,7 @@ body {
   background-color: #573DFC;
   display: flex;
   justify-content: space-between;
+  gap: 10rem;
   align-items: center;
   height: 70px;
 }
