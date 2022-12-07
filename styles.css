@@ -274,13 +274,13 @@ body {
   /* Six columns side by side */
   .column {
     float: left;
-    width: 16.66%;
+    width: 15%;
   }
   
   /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
-    width: 100%;
+    width: 50%;
   }
   
   .active,
