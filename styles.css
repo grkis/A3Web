@@ -6,21 +6,6 @@ body {
       'Lucida Sans', Arial, sans-serif;
   }
   
-nav {
-    height: 80px;
-    background: #573DFC;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem;
- }
-
- .nav-items{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 3rem;
- }
   
  .logo {
     color: #000;
@@ -28,17 +13,6 @@ nav {
     font-weight: bold;
     font-style: italic;
     padding: 0 2rem;
- }
-  
- nav a {
-    text-decoration: none;
-    color: #000;
-    padding: 1.5rem;
-    display: block
- }
-  
- nav a:hover {
-    color: #fff;
  }
 
  .background1 {
@@ -139,15 +113,43 @@ nav {
 
  /* Navigation Dropdown Menu CSS*/
 
- .dropdown {
-   float: none;
-   overflow: hidden; 
- }
+ nav {
+  height: 80px;
+  background: #573DFC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+}
+
+.nav-items{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 1.5rem;
+  display: block
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #573DFC;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
 
  .dropdown .dropbtn {
    border: none;
    outline: none;
-   color: #000;
+   color: #573DFC;
    background-color: inherit;
    font-family: inherit;
    margin: 0;
@@ -158,6 +160,8 @@ nav {
    position: absolute;
    background-color: #fff;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   float: none;
+   overflow: hidden; 
    z-index: 1;
  }
 
