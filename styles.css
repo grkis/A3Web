@@ -8,7 +8,6 @@ body {
 
  .background1 {
     background: #fff;
-	  border-style: solid
  }
   
 .background2 {
@@ -252,7 +251,7 @@ body {
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
-    padding: 8px 12px;
+    padding: 0.75rem 12px;
     position: absolute;
     top: 0;
   }
@@ -260,7 +259,7 @@ body {
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #573DFC;
     padding: 2px 16px;
     color: white;
   }
