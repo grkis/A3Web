@@ -121,10 +121,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem;
 }
 
 /* Links inside the navbar */
+.logo {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
 .navbar a {
   float: left;
   font-size: 16px;
