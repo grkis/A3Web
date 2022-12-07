@@ -33,4 +33,4 @@ function showSlides(n) {
 
 document.getElementById("myButton").onclick = function () {
   window.location.href = "https://grkis.github.io/A3Web/contact.html";
-};
+}
