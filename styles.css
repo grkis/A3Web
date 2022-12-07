@@ -206,6 +206,9 @@ body {
   /* Position the image container (needed to position the left and right arrows) */
   .container4 {
     position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   /* Hide the images by default */
