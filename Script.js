@@ -1,3 +1,9 @@
+// Button General Function
+
+document.getElementById("myButton").onclick = function () {
+  window.location.href = "https://grkis.github.io/A3Web/contact.html";
+}
+
 // Grace's page
 
 let slideIndex = 1;
@@ -24,13 +30,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].display = "block";
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
-// Button General Function
-
-document.getElementById("myButton").onclick = function () {
-  window.location.href = "https://grkis.github.io/A3Web/contact.html";
 }
