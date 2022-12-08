@@ -341,7 +341,7 @@ body {
   .background000{
     background: black;
     border-style: solid;
-    opacity: 75%;
+    opacity: 100%;
     }
  
     image.centered{
@@ -377,7 +377,7 @@ body {
       display: block;
       font-size: 0.90rem;
       color: rgb(0, 0, 0);
-      text-align: center;
+      text-align: right;
      }
  
     .image1 {
