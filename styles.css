@@ -392,6 +392,7 @@ body {
   }
 
   .container3 {
+    
     margin: 10px;
     width: 115px;
     height: 115px;
@@ -405,11 +406,10 @@ body {
     vertical-align: middle;
   }
 
-  .center500 {
+  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
   }
 
   /*Will's Page CSS End*/
