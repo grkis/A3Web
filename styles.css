@@ -372,6 +372,13 @@ body {
      color: rgb(255, 255, 255);
      text-align: center;
     }
+
+    #Section2{
+      display: block;
+      font-size: 0.90rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+     }
  
     .image1 {
      width: 60%;
