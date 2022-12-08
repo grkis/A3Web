@@ -405,6 +405,13 @@ body {
     vertical-align: middle;
   }
 
+  .center500 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   /*Will's Page CSS End*/
 * {
     box-sizing: border-box;
