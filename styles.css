@@ -397,7 +397,7 @@ body {
     height: 115px;
     line-height: 115px;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .resize_fit_center {
     max-width:100%;
