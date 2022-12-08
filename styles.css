@@ -1,3 +1,19 @@
+/* Description: Master CSS file */
+
+/*****************************************
+Table Of Contents:
+- General Styles
+- Navigation
+- Home
+- Button
+- 
+******************************************/
+
+
+/**************************/
+/*     General Styles     */
+/**************************/
+
 body {
     box-sizing: border-box;
     margin: 0;
