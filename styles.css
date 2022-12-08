@@ -391,6 +391,20 @@ body {
     color: rgb(255, 255, 255);
   }
 
+  .container {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    border: 1px solid red;
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+  }
+    
   /*Will's Page CSS End*/
 * {
     box-sizing: border-box;
