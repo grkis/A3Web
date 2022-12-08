@@ -22,6 +22,9 @@ body {
   border-style: solid
 }
 
+.background3 {
+  background: rgb(0, 0, 0);
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -331,6 +334,13 @@ body {
     width: 60%;
  }
 
+ .row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: rgb(255, 255, 255);
+}
+
   /* Grace's Page CSS END */
  
 
@@ -376,6 +386,7 @@ body {
     .image1 {
      width: 60%;
   }
+
 
   /*Will's Page CSS End*/
 * {
