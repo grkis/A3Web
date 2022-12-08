@@ -377,7 +377,7 @@ body {
      width: 60%;
   }
 
-  .row2{
+  #row2{
     content: "";
     display: table;
     clear: both;
