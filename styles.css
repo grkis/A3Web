@@ -22,9 +22,6 @@ body {
   border-style: solid
 }
 
-.background3 {
-  background: rgb(0, 0, 0);
-}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -341,7 +338,7 @@ body {
 
   /*Will's Page CCS Start*/
 
-  .background3{
+  .background000{
     background: black;
     border-style: solid;
     opacity: 75%;
