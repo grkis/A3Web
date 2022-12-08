@@ -334,13 +334,6 @@ body {
     width: 60%;
  }
 
- .row2:after {
-  content: "";
-  display: table;
-  clear: both;
-  color: rgb(255, 255, 255);
-}
-
   /* Grace's Page CSS END */
  
 
@@ -349,7 +342,7 @@ body {
   /*Will's Page CCS Start*/
 
   .background3{
-    background: #573DFC;
+    background: black;
     border-style: solid;
     opacity: 75%;
     }
@@ -387,6 +380,12 @@ body {
      width: 60%;
   }
 
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: white;
+  }
 
   /*Will's Page CSS End*/
 * {
