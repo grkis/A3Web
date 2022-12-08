@@ -391,7 +391,7 @@ body {
     color: rgb(255, 255, 255);
   }
 
-  .container {
+  .container2 {
     margin: 10px;
     width: 115px;
     height: 115px;
@@ -404,7 +404,7 @@ body {
     max-height:100%;
     vertical-align: middle;
   }
-    
+
   /*Will's Page CSS End*/
 * {
     box-sizing: border-box;
