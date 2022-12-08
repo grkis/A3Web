@@ -394,8 +394,8 @@ body {
   .container3 {
     
     margin: 10px;
-    width: 115px;
-    height: 115px;
+    width: 250px;
+    height: 250px;
     line-height: 115px;
     text-align: center;
     border: 1px solid black;
@@ -404,12 +404,6 @@ body {
     max-width:100%;
     max-height:100%;
     vertical-align: middle;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /*Will's Page CSS End*/
