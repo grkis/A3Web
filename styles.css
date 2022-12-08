@@ -4,7 +4,6 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
  .background1 {
@@ -102,41 +101,14 @@ body {
     height: 100%;
  }
 
- /* Custom Scroll Bar */ 
- /* width */
-::-webkit-scrollbar {
-  width: 1rem;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #fff; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #573DFC; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #573DFC; 
-}
  /* Navigation Dropdown Menu CSS*/
-
- .minimargin {
-  margin-right: 3rem;
- }
 
  .logo {
   color: #000;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
-  padding-right: 15 rem;
-  padding-left: 10rem;
+  padding: 0 2rem;
 }
 
  /* Navbar container */
@@ -145,7 +117,6 @@ body {
   background-color: #573DFC;
   display: flex;
   justify-content: space-between;
-  gap: 10rem;
   align-items: center;
   height: 70px;
 }
@@ -168,7 +139,7 @@ body {
 }
 
 /* Dropdown button */
-.dropbtn {
+.dropdown .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -243,7 +214,6 @@ body {
   /* Hide the images by default */
   .mySlides {
     display: none;
-    padding-bottom: 3rem;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -255,18 +225,17 @@ body {
   .prev,
   .next {
     cursor: pointer;
-    position: relative;
+    position: absolute;
     top: 40%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: #573DFC;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-    display:none;
   }
   
   /* Position the "next button" to the right */
@@ -367,6 +336,48 @@ body {
 
   /* Chris's Page CSS START*/
 
+  /*Will's Page CCS Start*/
+
+  .background3{
+    background: #573DFC;
+    border-style: solid;
+    opacity: 75%;
+    }
+ 
+    image.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+ 
+    #PLayout1{
+     display: block;
+     font-size: 1.5rem;
+     color: #fff;
+     text-align: center;
+     margin-right: 120em;
+     margin-left: 120em; 
+    }
+ 
+    #HLayout1{
+     display: block;
+     font-size: 2.5rem;
+     color: #fff;
+     text-align: center; 
+    }
+ 
+    #Section{
+     display: block;
+     font-size: 0.90rem;
+     color: rgb(83, 79, 79);
+     text-align: center;
+    }
+ 
+    .image1 {
+     width: 60%;
+  }
+
+  /*Will's Page CSS End*/
 * {
     box-sizing: border-box;
 }
