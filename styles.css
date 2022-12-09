@@ -708,6 +708,11 @@ margin-right: auto;
   width: 60%;
 }
 
+.responsive3 {
+  max-width: 100%;
+  height: auto;
+}
+
 #row21{
   content: "";
   display: table;
