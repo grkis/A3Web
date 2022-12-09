@@ -169,8 +169,16 @@ body {
 .responsive3 {
   max-width: 250px;
   height: auto;
-  width: 100%
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.textingg {
+  color: Navy;
+  text-align: center;
+}  
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 770px) {
