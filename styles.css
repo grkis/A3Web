@@ -603,20 +603,6 @@ body {
 /*CSS End*/
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 768px) {
-  .column {
-        width: 100%;
-  }
-  .container {
-    grid-template-columns: 1fr;
-  }
-} 
-
-/*Responsive layout end*/
-
-
 /******************************/
 /*     Back To Top Button     */
 /******************************/
@@ -645,3 +631,16 @@ body {
 	margin-bottom: 0.25rem;
 }
 
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 768px) {
+  .column {
+        width: 100%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+} 
+
+/*Responsive layout end*/
