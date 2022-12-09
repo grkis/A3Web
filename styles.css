@@ -126,6 +126,8 @@ body {
 /* CSS End */
 
 
+
+
  /**************************/
 /*     Navigation     */
 /**************************/
@@ -217,6 +219,16 @@ body {
 }
 
 /* Navigation Dropdown Menu CSS END*/
+
+ /**************************/
+/*     About Us Page    */
+/**************************/
+
+#nameid{
+  font-size: 1.33rem;
+  color:#573DFC;
+  font-style: italic;
+}
 
 
 /**************************/
@@ -706,5 +718,3 @@ background-color: #555; /* Add a dark-grey background on hover */
 } 
 
 /*Responsive layout end*/
-
-}
