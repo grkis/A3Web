@@ -150,13 +150,12 @@ body {
   padding: 0 16px;
 }
 
-/* 
+/* Clear floats */
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
-Clear floats */
 
 .title {
   color: grey;
@@ -478,6 +477,10 @@ Clear floats */
   border-radius: 40%;
   }
 
+  @media screen and (max-width: 768px) {
+    .column33 {
+      width: 100%;
+    }}
 /*..............................Chris Product Page........................................*/
 /* The grid: Four equal columns that floats next to each other */
 .column25 {
@@ -625,6 +628,7 @@ line-height: 115px;
 text-align: center;
 border: 1px solid black;
 }
+
 .resize_fit_center {
 max-width:100%;
 max-height:100%;
@@ -775,10 +779,7 @@ background-color: #555; /* Add a dark-grey background on hover */
   }
   .container {
     grid-template-columns: 1fr;
-     }
-  .column33 {
-      width: 100%;
-  } 
+  }
+} 
 
 /*Responsive layout end*/
-}
