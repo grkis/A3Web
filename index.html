@@ -22,20 +22,22 @@
 
     <!-- Navigation Start. Keep this consistent throughout the pages-->
 
-    <div class="topnav" id="myTopnav">
+    <div class="navbar" id="myTopnav">
       <div class="logo">GR8 Consulting</div>
-      <a href="index.html" class="active">Home</a>
-      <button class="dropbtn">Products
-      </button>
-      <div class="dropdown-content">
-        <a href= "ChrisProduct.html"> Chris</a>
-        <a href= "bikeinfrastructure.html"> Grace</a>
-        <a href= "hurricanemanagement.html"> Ryan</a>
-        <a href= "WillProduct.html">William</a>
+      <a href="index.html" class = "dropbtn">Home</a>
+      <div class="dropdown" id="minimargin"> <!--minimargin id to give some space next to products without messing with flexbox-->
+        <button class="dropbtn">Products
+        </button>
+        <div class="dropdown-content">
+          <a href= "ChrisProduct.html"> Chris</a>
+          <a href= "bikeinfrastructure.html"> Grace</a>
+          <a href= "hurricanemanagement.html"> Ryan</a>
+          <a href= "WillProduct.html">William</a>
+        </div>
       </div>
-      <a href="aboutus.html">About Us</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="aboutus.html" class = "dropbtn">About Us</a>
+      <a href="gallery.html" class = "dropbtn">Gallery</a>
+      <a href="contact.html" class = "dropbtn">Contact Us</a>
       <a href="javascript:void(0);" class="icon" onclick="navFunction()">
         <i class="fa fa-bars"></i>
       </a>
