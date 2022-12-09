@@ -1,19 +1,12 @@
 /* DESCRIPTION: CUSTOM JS FILE */
 
-/* Button*/
-//document.getElementById("myButton").onclick = 
-
-function myButton() {
-  window.location.href = "https://grkis.github.io/A3Web/contact.html";
-}
-
 /* BACK TO TOP BUTTON */
 // GET THE BUTTON
 myButton = document.getElementById("myBtn");
 
-// WHEN THE USER SCROLLS DOWN 30PX FROM THE TOP OF THE DOCUMENT, SHOW THE BUTTON
+// WHEN THE USER SCROLLS DOWN 20PX FROM THE TOP OF THE DOCUMENT, SHOW THE BUTTON
 function scrollFunctionBTT() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         myButton.style.display = "block";
     } else {
         myButton.style.display = "none";
@@ -26,6 +19,12 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
 
+/* Button*/
+//document.getElementById("myButton").onclick = 
+
+function myButton() {
+  window.location.href = "https://grkis.github.io/A3Web/contact.html";
+}
 
 // Grace's page
 
