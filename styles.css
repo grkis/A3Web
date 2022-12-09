@@ -428,12 +428,16 @@ body {
   margin: 10px;
   width: 250px;
   height: 250px;
+  left: auto;
+  right: auto;
   line-height: 115px;
   text-align: center;
   border: 1px solid black;
 }
 .resize_fit_center {
   max-width:100%;
+  left: auto;
+  right: auto;
   max-height:100%;
   text-align: center;
   vertical-align: middle;
