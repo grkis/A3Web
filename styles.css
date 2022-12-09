@@ -259,6 +259,22 @@ background-color: #573DFC;
 display: block;
 }
 
+/*RESPONSIVE NAVBAR MENU*/
+
+/* CHECKBOX HACK */
+
+input[type=checkbox]{
+  display: none; 
+  }
+  
+  /*HAMBURGER MENU*/
+  
+  .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  }
+
 /* Navigation Dropdown Menu CSS END*/
 
  /**************************/
@@ -494,7 +510,7 @@ display: block;
 }
 
 .imageproductchris {
-  max-width: ;
+  max-width: 300px;
   width: 100%;
 }
 
