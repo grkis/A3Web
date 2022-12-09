@@ -78,12 +78,3 @@ function TabGallery(imgs) {
   imgText.innerHTML = imgs.alt;
   expandImg.parentElement.style.display = "block";
 }
-
-function navFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "navbar") {
-    x.className += "responsive";
-  } else {
-    x.className = "navbar";
-  }
-}

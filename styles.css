@@ -170,6 +170,13 @@ body {
 
 /* CSS End */
 
+a {
+text-decoration: none;
+}
+
+.list1 {
+list-style: none;
+}
 
 
 
@@ -200,6 +207,7 @@ color: #fff;
 .nav-links a {
 color: #fff;
 }
+
 
 /* NAVBAR MENU */
 .menu {
