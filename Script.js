@@ -32,11 +32,11 @@ function CButton() {
   window.location.href = "https://grkis.github.io/A3Web/ChrisProduct.html";
 }
 
-function WyButton() {
+function WButton() {
   window.location.href = "https://grkis.github.io/A3Web/WillProduct.html";
 }
 
-function RyButton() {
+function RButton() {
   window.location.href = "https://grkis.github.io/A3Web/hurricanemanagement.html";
 }
 
