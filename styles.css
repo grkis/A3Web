@@ -782,6 +782,22 @@ background-color: #555; /* Add a dark-grey background on hover */
   .container {
     grid-template-columns: 1fr;
   }
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 } 
 
 /*Responsive layout end*/
