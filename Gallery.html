@@ -8,9 +8,55 @@
     </head>
   
   <body>
-    <div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Navigation Start. Keep this consistent throughout the pages-->
+    <div class="navbar">
+      <div class="logo">GR3 Consulting</div>
+      <a href="index.html" class = "dropbtn">Home</a>
+      <div class="dropdown" id="minimargin"> <!--minimargin id to give some space next to products without messing with flexbox-->
+        <button class="dropbtn">Products
+        </button>
+        <div class="dropdown-content">
+          <a href= "ChrisProduct.html"> Chris</a>
+          <a href= "bikeinfrastructure.html"> Grace</a>
+          <a href= "hurricanemanagement.html"> Ryan</a>
+          <a href= "WillProduct.html">William</a>
+        </div>
+      </div>
+      <a href="aboutus.html" class = "dropbtn">About Us</a>
+      <a href="contact.html" class = "dropbtn">Contact Us</a>
     </div>
+    <!-- Navigation End. Keep this consistent throughout the pages-->
+
+    <section class="background2">
+
+      <div class="row0">
+        <div class="column0">
+          <img src="image/BikeMap1.png" alt="Street network of Hamilton" onclick="myFunction(this);">
+        </div>
+        <div class="column0">
+          <img src="image/BikeMap2.png" alt="Hamilton" onclick="myFunction(this);">
+        </div>
+        <div class="column0">
+          <img src="image/BikeMap3.png" alt="Local Bike Network of Hamilton" onclick="myFunction(this);">
+        </div>
+        <div class="column0">
+          <img src="image/BikeMap4.png" alt="Traffic flow impact caused by separated bike lanes" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <!-- The expanding image container -->
+      <div class="container0">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+      
+        <!-- Image text -->
+        <div id="imgtext0"></div>
+      </div>
+
+    </section>
   </body>
   
   <script src="Script.js"></script> <!-- Call in script.js for button and other functions-->
