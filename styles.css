@@ -495,7 +495,8 @@ display: block;
 }
 
 .imageproductchris {
-  max-width: ;
+  max-width: 1000px;
+  height: auto;
   width: 100%;
 }
 
