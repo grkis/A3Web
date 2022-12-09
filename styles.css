@@ -377,6 +377,46 @@ body {
 
 /* CSS START*/
 
+/* new as of today */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column33 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowcontact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .background000{
 background: black;
 border-style: solid;
@@ -413,38 +453,6 @@ border-radius: 40%;
   text-align: center;
   }
 
-.image1 {
-  width: 60%;
-}
-
-
-
-/* Six columns side by side */
-.column33 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-
-.container3 {
-
-margin: 10px;
-width: 250px;
-height: 250px;
-left: auto;
-right: auto;
-line-height: 115px;
-text-align: center;
-border: 1px solid black;
-}
-.resize_fit_center {
-max-width:100%;
-left: auto;
-right: auto;
-max-height:100%;
-text-align: center;
-vertical-align: middle;
-}
 
 /* CSS END */
 
