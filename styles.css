@@ -493,24 +493,12 @@ display: block;
   display: none;
 }
 
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
+.imageproductchris {
+  max-width: ;
+  width: 100%;
 }
 
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
+
 
 /*..............END CHRIS PRODUCT PAGE....................*/
 
