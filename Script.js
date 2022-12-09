@@ -28,6 +28,21 @@ function myButton() {
   window.location.href = "https://grkis.github.io/A3Web/contact.html";
 }
 
+function CButton() {
+  window.location.href = "https://grkis.github.io/A3Web/ChrisProduct.html";
+}
+
+function WyButton() {
+  window.location.href = "https://grkis.github.io/A3Web/WillProduct.html";
+}
+
+function RyButton() {
+  window.location.href = "https://grkis.github.io/A3Web/hurricanemanagement.html";
+}
+
+function GButton() {
+  window.location.href = "https://grkis.github.io/A3Web/bikeinfrastructure.html";
+}
 // Grace's page
 
 let slideIndex = 1; 
