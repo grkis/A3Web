@@ -56,8 +56,7 @@ body {
   grid-template-columns: 1fr 1fr;
   height: 95vh;
   padding: 1rem 6.5rem;
-  border-style: dashed;
-  border-color: #573DFC;
+  border-bottom: 7px dashed #573DFC;
 }
 
 .container2{
