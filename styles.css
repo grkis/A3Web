@@ -769,15 +769,12 @@ margin-right: auto;
   }
 
 .container31 {
-  margin: 10px;
-  width: 250px;
-  height: 250px;
-  left: auto;
-  right: auto;
-  line-height: 115px;
-  text-align: center;
-  border: 1px solid black;
+  position: relative;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
   }
+
 .resize_fit_center {
   max-width:100%;
   left: auto;
