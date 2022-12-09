@@ -8,25 +8,30 @@
   </head>
   <body>
 
-    <!-- Navigation Start. Keep this consistent throughout the pages-->
-    <div class="navbar">
-        <div class="logo">GR8 Consulting</div>
-        <a href="index.html" class = "dropbtn">Home</a>
-        <div class="dropdown" id="minimargin"> <!--minimargin id to give some space next to products without messing with flexbox-->
-          <button class="dropbtn">Products
-          </button>
-          <div class="dropdown-content">
-            <a href= "ChrisProduct.html"> Chris</a>
-            <a href= "bikeinfrastructure.html"> Grace</a>
-            <a href= "hurricanemanagement.html"> Ryan</a>
-            <a href= "WillProduct.html">William</a>
-          </div>
-        </div>
-        <a href="aboutus.html" class = "dropbtn">About Us</a>
-        <a href="gallery.html" class = "dropbtn">Gallery</a>
-        <a href="contact.html" class = "dropbtn">Contact Us</a>
-      </div>
-  <!-- Navigation End. Keep this consistent throughout the pages-->
+   <!-- Navigation Start. Keep this consistent throughout the pages-->
+   <nav class="navbar">
+    <div class="logo">GR8 Consulting</div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>  
+        <div class="menu">
+          <li class="list1"><a href="index.html">Home</a></li>
+          <li class="list1"><a href="aboutus.html">About</a></li>     
+          <li class="services list1">
+          <a href="#">Products</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown-content">
+            <li class="list2"><a href="ChrisProduct.html">Chris</a></li>
+            <li class="list2"><a href="bikeinfrastructure.html">Grace</a></li>
+            <li class="list2"><a href="WillProduct.html">William</a></li>
+            <li class="list2"><a href="hurricanemanagement.html">Ryan</a></li>
+          </ul>
+          </li>
+          <li class="list1"><a href="gallery.html">Gallery</a></li>
+          <li class="list1"><a href="contact.html">Contact Us</a></li>
+    </nav>
+    <!-- Navigation End. Keep this consistent throughout the pages-->
+
 
     
     <section class="background1">
@@ -67,17 +72,22 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </div>
         
-            <!-- Concluding remarks and button to contact us hom page-->   
-        <div class = "container2">
-            <div class = "center">
-                <h1> Interested in our services? </h1>
-                <p> You are in the right place! If you'd like to learn more, get in reach with one of our GIS specialists by using our contact information above today</p>
-            </div>
-        </div>
-    </section>
+    <!-- Concluding remarks and button to contact us page-->   
+    <section class="background2">
+      <div class="container2">
+          <div class="center">
+              <h1>If you'd like to learn more...</h1>
+              <p>Get in reach with one of our GIS specialists today!</p>
+              <button onclick = "myButton()">Book a Consultation</button>
+          </div>
+          <!--Back to Top Button-->
+          <div>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+          </div>
+      </div>
     </section>
 
-   
   </body>
-</html>
+  <script src="Script.js"></script> <!-- Call in script.js for button and other functions-->
 
+</html>
