@@ -697,8 +697,8 @@ margin-right: auto;
   }
 .resize_fit_center {
   max-width:100%;
-  left: auto;
-  right: auto;
+  left: center;
+  right: center;
   max-height:100%;
   text-align: center;
   vertical-align: middle;
