@@ -610,7 +610,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#PLayout1{
+#PLayout13{
   display: block;
   font-size: 1.5rem;
   color: #fff;
@@ -619,39 +619,39 @@ margin-right: auto;
   margin-left: 120em; 
 }
 
-#HLayout1{
+#HLayout13{
   display: block;
   font-size: 2.5rem;
   color: #fff;
   text-align: center; 
 }
 
-#Section{
+#Section13{
   display: block;
   font-size: 1rem;
   color: rgb(255, 255, 255);
   text-align: center;
 }
 
-#Section2{
+#Section21{
   display: block;
   font-size: 0.90rem;
   color: rgb(0, 0, 0);
   text-align: center;
   }
 
-.image1 {
+.image12 {
   width: 60%;
 }
 
-#row2{
+#row21{
   content: "";
   display: table;
   clear: both;
   color: rgb(255, 255, 255);
   }
 
-.container3 {
+.container31 {
   margin: 10px;
   width: 250px;
   height: 250px;
