@@ -113,8 +113,9 @@ body {
   
  .column-right {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 0rem 2rem;
  }
 
@@ -647,6 +648,10 @@ text-align: center;
 margin-bottom: 1rem;
 font-size: 5rem;
 }
+.centerr h2 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  }
 
 .centerr p {
 margin-bottom: 2rem;
@@ -737,6 +742,8 @@ margin-right: auto;
   max-height:100%;
   text-align: center;
   vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 /*CSS End*/
