@@ -82,7 +82,7 @@ function TabGallery(imgs) {
 function navFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "navbar") {
-    x.className += " responsive";
+    x.className += "responsive";
   } else {
     x.className = "navbar";
   }
