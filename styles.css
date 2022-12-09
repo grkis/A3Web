@@ -386,9 +386,9 @@ body {
 /* Create three equal columns that floats next to each other */
 .column33 {
   float: left;
+  margin: auto;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -404,17 +404,6 @@ body {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .background000{
