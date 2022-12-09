@@ -135,6 +135,12 @@ body {
   
  }
 
+ .centergeneral{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ }
+
  /* Four columns side by side */
 .column {
   float: left;
