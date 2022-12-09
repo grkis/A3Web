@@ -272,6 +272,11 @@ body {
   display: block;
 }
 
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
+
 /* Navigation Dropdown Menu CSS END*/
 
  /**************************/
