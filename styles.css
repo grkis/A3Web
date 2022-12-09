@@ -426,7 +426,7 @@ body {
 
 
 /* The expanding image container */
-.container {
+.containerrelative {
   position: relative;
   display: none;
 }
