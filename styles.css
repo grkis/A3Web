@@ -423,6 +423,12 @@ body {
   color: rgb(255, 255, 255);
 }
 
+/* Six columns side by side */
+.column33 {
+  float: left;
+  width: 15%;
+}
+
 .container3 {
   
   margin: 10px;
