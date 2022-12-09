@@ -162,6 +162,7 @@ body {
   color: grey;
 }
 
+
 /* CSS End */
 
 
@@ -450,6 +451,10 @@ body {
   border-radius: 40%;
   }
 
+  @media screen and (max-width: 768px) {
+    .column33 {
+      width: 100%;
+    }
 /*..............................Chris Product Page........................................*/
 /* The grid: Four equal columns that floats next to each other */
 .column25 {
@@ -697,8 +702,8 @@ margin-right: auto;
   }
 .resize_fit_center {
   max-width:100%;
-  left: center;
-  right: center;
+  left: auto;
+  right: auto;
   max-height:100%;
   text-align: center;
   vertical-align: middle;
@@ -738,8 +743,6 @@ background-color: #555; /* Add a dark-grey background on hover */
   .container {
     grid-template-columns: 1fr;
   }
-  .column33 {
-    width: 100%;
 } 
 
 /*Responsive layout end*/
