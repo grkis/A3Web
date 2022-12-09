@@ -73,3 +73,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function TabGallery(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
