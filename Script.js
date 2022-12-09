@@ -7,6 +7,26 @@ function myButton() {
   window.location.href = "https://grkis.github.io/A3Web/contact.html";
 }
 
+/* BACK TO TOP BUTTON */
+// GET THE BUTTON
+myButton = document.getElementById("myBtn");
+
+// WHEN THE USER SCROLLS DOWN 20PX FROM THE TOP OF THE DOCUMENT, SHOW THE BUTTON
+function scrollFunctionBTT() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myButton.style.display = "block";
+    } else {
+        myButton.style.display = "none";
+    }
+}
+
+// WHEN THE USER CLICKS ON THE BUTTON, SCROLL TO THE TOP OF THE DOCUMENT
+function topFunction() {
+    document.body.scrollTop = 0; // for Safari
+    document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
+}
+
+
 // Grace's page
 
 let slideIndex = 1; 
