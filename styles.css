@@ -150,6 +150,14 @@ body {
  }
 
  /* Four columns side by side */
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .column {
   float: left;
   width: 25%;
@@ -165,7 +173,7 @@ body {
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
   .column {
     width: 100%;
     display: block;
@@ -186,6 +194,8 @@ body {
 
 .title {
   color: grey;
+  text-align: left;
+  
 }
 
 /* CSS End */
