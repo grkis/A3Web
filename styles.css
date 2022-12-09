@@ -620,7 +620,7 @@ body {
 /******************************/
 /*     Back To Top Button     */
 /******************************/
-.myBtn {
+#myBtn {
 	z-index: 99;
 	right: 20px;
 	width: 52px;
@@ -635,11 +635,11 @@ body {
 	background-color: #ffffff;
 }
 
-.myBtn:hover {
+#myBtn:hover {
   	background-color: #0f0f11;
 }
 
-.myBtn img {
+#myBtn img {
 	width: 18px;
 	margin-left: 0.125rem;
 	margin-bottom: 0.25rem;
