@@ -2,17 +2,21 @@
 
 /*****************************************
 Table Of Contents:
-- General Styles
-- Navigation
 - Home
+- Navigation
 - Button
-- 
+- Grace's Page
+- Chris' Page
+- Will's Page
+- Ryan's Page
 ******************************************/
 
 
 /**************************/
-/*     General Styles     */
+/*     Home     */
 /**************************/
+
+/* CSS Start */
 
 body {
     box-sizing: border-box;
@@ -117,6 +121,14 @@ body {
     height: 100%;
  }
 
+/* CSS End */
+
+
+ /**************************/
+/*     Navigation     */
+/**************************/
+
+
  /* Navigation Dropdown Menu CSS*/
 
  .logo {
@@ -204,280 +216,403 @@ body {
 
 /* Navigation Dropdown Menu CSS END*/
 
-  /* Grace's Page CSS START*/ 
 
-  /* #list1{
-   text-align: center;
-   color: #fff;
-   list-style: square;
-   list-style-position: inside;
-   font-size: 1.5rem} */
+/**************************/
+/*     Grace's Page     */
+/**************************/
 
-   /*CSS FOR SLIDESHOW - Grace's Page*/
 
-   * {
-    box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container4 {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 0.75rem 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #573DFC;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 15%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-    width: 50%;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
+/* CSS START*/ 
+
+/* #list1{
+  text-align: center;
+  color: #fff;
+  list-style: square;
+  list-style-position: inside;
+  font-size: 1.5rem} */
+
+  /*CSS FOR SLIDESHOW - Grace's Page*/
+
+  * {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container4 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 0.75rem 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #573DFC;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 15%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  width: 50%;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Misc CSS for Grace's page*/
+
+  .background3{
+  background: #573DFC;
+  border-style: solid;
+  opacity: 75%;
   }
 
-  /* Misc CSS for Grace's page*/
+  image.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
-   .background3{
-   background: #573DFC;
-   border-style: solid;
-   opacity: 75%;
-   }
+  #PLayout1{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-right: 120em;
+  margin-left: 120em; 
+  }
 
-   image.centered{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   }
+  #HLayout1{
+  display: block;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center; 
+  }
 
-   #PLayout1{
+  #PLayout2{
+  display: block;
+  font-size: 0.90rem;
+  color: rgb(83, 79, 79);
+  text-align: center;
+  }
+
+  .image1 {
+  width: 60%;
+}
+
+/* CSS END */
+
+
+/**************************/
+/*     Chris's Page    */
+/**************************/
+
+
+/* CSS START*/
+
+.background000{
+  background: black;
+  border-style: solid;
+  opacity: 100%;
+  }
+
+  image.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #PLayout1{
     display: block;
     font-size: 1.5rem;
     color: #fff;
     text-align: center;
     margin-right: 120em;
     margin-left: 120em; 
-   }
+  }
 
-   #HLayout1{
+  #HLayout1{
     display: block;
     font-size: 2.5rem;
     color: #fff;
     text-align: center; 
-   }
+  }
 
-   #PLayout2{
+  #Section{
+    display: block;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #Section2{
     display: block;
     font-size: 0.90rem;
-    color: rgb(83, 79, 79);
+    color: rgb(0, 0, 0);
     text-align: center;
-   }
+    }
 
-   .image1 {
+  .image1 {
     width: 60%;
- }
+}
 
-  /* Grace's Page CSS END */
- 
+#row2{
+  content: "";
+  display: table;
+  clear: both;
+  color: rgb(255, 255, 255);
+}
 
-  /* Chris's Page CSS START*/
-
-  /*Will's Page CCS Start*/
-
-  .background000{
-    background: black;
-    border-style: solid;
-    opacity: 100%;
-    }
- 
-    image.centered{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
- 
-    #PLayout1{
-     display: block;
-     font-size: 1.5rem;
-     color: #fff;
-     text-align: center;
-     margin-right: 120em;
-     margin-left: 120em; 
-    }
- 
-    #HLayout1{
-     display: block;
-     font-size: 2.5rem;
-     color: #fff;
-     text-align: center; 
-    }
- 
-    #Section{
-     display: block;
-     font-size: 1rem;
-     color: rgb(255, 255, 255);
-     text-align: center;
-    }
-
-    #Section2{
-      display: block;
-      font-size: 0.90rem;
-      color: rgb(0, 0, 0);
-      text-align: center;
-     }
- 
-    .image1 {
-     width: 60%;
-  }
-
-  #row2{
-    content: "";
-    display: table;
-    clear: both;
-    color: rgb(255, 255, 255);
-  }
-
-  .container3 {
-    
-    margin: 10px;
-    width: 250px;
-    height: 250px;
-    line-height: 115px;
-    text-align: center;
-    border: 1px solid black;
+.container3 {
+  
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  line-height: 115px;
+  text-align: center;
+  border: 1px solid black;
 }
 .resize_fit_center {
-    max-width:100%;
-    max-height:100%;
-    vertical-align: middle;
+  max-width:100%;
+  max-height:100%;
+  vertical-align: middle;
+}
+
+/* CSS END */
+
+
+/**************************/
+/*     Will's Page    */
+/**************************/
+
+
+/*CSS Start*/
+
+.background000{
+  background: black;
+  border-style: solid;
+  opacity: 100%;
   }
 
-  /*Will's Page CSS End*/
-* {
-    box-sizing: border-box;
-}
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    border: #000;
-    width: 33.33%;
-    padding: 10px;
-}
+  image.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
-/* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-  .imground {
-    width: 115px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-  .h3{
+  #PLayout1{
+    display: block;
     font-size: 1.5rem;
-    font-style: bold;
+    color: #fff;
     text-align: center;
+    margin-right: 120em;
+    margin-left: 120em; 
+  }
 
+  #HLayout1{
+    display: block;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center; 
+  }
+
+  #Section{
+    display: block;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #Section2{
+    display: block;
+    font-size: 0.90rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+
+  .image1 {
+    width: 60%;
 }
 
-  .h4{
-    font-size: 1.2rem;
-    font-style: bold;
-    text-align: center;
-
+#row2{
+  content: "";
+  display: table;
+  clear: both;
+  color: rgb(255, 255, 255);
 }
 
-  .h5{
-    font-size: 1.2rem;
-    text-align: center;
+.container3 {
+  
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  line-height: 115px;
+  text-align: center;
+  border: 1px solid black;
+}
+.resize_fit_center {
+  max-width:100%;
+  max-height:100%;
+  vertical-align: middle;
 }
 
-/* Chris's Page CSS END */
+/*CSS End*/
+
+
+/**************************/
+/*     Ryan's Page    */
+/**************************/
+
+/*CSS Start*/
+
+.background000{
+  background: black;
+  border-style: solid;
+  opacity: 100%;
+  }
+
+  image.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #PLayout1{
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-right: 120em;
+    margin-left: 120em; 
+  }
+
+  #HLayout1{
+    display: block;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center; 
+  }
+
+  #Section{
+    display: block;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #Section2{
+    display: block;
+    font-size: 0.90rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+
+  .image1 {
+    width: 60%;
+}
+
+#row2{
+  content: "";
+  display: table;
+  clear: both;
+  color: rgb(255, 255, 255);
+}
+
+.container3 {
+  
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  line-height: 115px;
+  text-align: center;
+  border: 1px solid black;
+}
+.resize_fit_center {
+  max-width:100%;
+  max-height:100%;
+  vertical-align: middle;
+}
+
+/*CSS End*/
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 
-  @media screen and (max-width: 768px) {
-    .column {
-          width: 100%;
-    }
-    .container {
-      grid-template-columns: 1fr;
-   }
-  } 
-  
+@media screen and (max-width: 768px) {
+  .column {
+        width: 100%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+} 
+
 /*Responsive layout end*/
+
+
+
