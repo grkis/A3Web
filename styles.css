@@ -127,13 +127,20 @@ body {
  /* Four columns side by side */
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
+/* Image dimensions */
+.responsive3 {
+  max-width: 250px;
+  height: auto;
+  width: 100%
+}
+
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 100%;
     display: block;
@@ -719,12 +726,6 @@ margin-right: auto;
 
 .image12 {
   width: 60%;
-}
-
-.responsive3 {
-  max-width: 250px;
-  height: auto;
-  width: 100%
 }
 
 #row21{
