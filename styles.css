@@ -303,6 +303,8 @@ body {
   color: white;
 }
 
+
+
 .row:after {
   content: "";
   display: table;
@@ -311,8 +313,8 @@ body {
 
 /* Six columns side by side */
 .column {
-  float: left;
-  width: 15%;
+  float: center;
+  width: 25%;
 }
 
 /* Add a transparency effect for thumnbail images */
