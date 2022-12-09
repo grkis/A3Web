@@ -178,7 +178,14 @@ text-decoration: none;
 list-style: none;
 }
 
+.list2 {
+list-style: none;
+padding: 0px;
+}
 
+.list2::before{
+  content: '\27A5';
+}
 
  /**************************/
 /*     Navigation     */
