@@ -11,9 +11,9 @@ function myButton() {
 // GET THE BUTTON
 myButton = document.getElementById("myBtn");
 
-// WHEN THE USER SCROLLS DOWN 10PX FROM THE TOP OF THE DOCUMENT, SHOW THE BUTTON
+// WHEN THE USER SCROLLS DOWN 30PX FROM THE TOP OF THE DOCUMENT, SHOW THE BUTTON
 function scrollFunctionBTT() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         myButton.style.display = "block";
     } else {
         myButton.style.display = "none";
