@@ -49,6 +49,7 @@ body {
   grid-template-columns: 1fr 1fr;
   height: 95vh;
   padding: 4rem;
+  align-items: center;
 }
 
 .container2{
