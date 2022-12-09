@@ -381,7 +381,7 @@ body {
 
 /* CSS START*/
 
-/* new as of today */
+/* Contact us Page */
 
 * {
   box-sizing: border-box;
@@ -401,6 +401,14 @@ body {
   display: table;
   clear: both;
 }
+
+/*rounding of images*/
+.imageround{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40%;
+  }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
@@ -462,12 +470,6 @@ border-style: solid;
 opacity: 100%;
 }
 
-.imageround{
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 40%;
-}
 
 #PLayout1{
   display: block;
