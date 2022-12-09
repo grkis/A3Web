@@ -406,6 +406,52 @@ body {
 }
 
 
+/*..............................Chris Product Page........................................*/
+/* The grid: Four equal columns that floats next to each other */
+.column25 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column25 img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column25 img:hover {
+  opacity: 1;
+}
+
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*..............END CHRIS PRODUCT PAGE....................*/
+
 .background000{
 background: black;
 border-style: solid;
