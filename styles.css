@@ -9,6 +9,8 @@ Table Of Contents:
 - Chris' Page
 - Will's Page
 - Ryan's Page
+- Responsive Layout
+- Back to Top Button
 ******************************************/
 
 
@@ -615,4 +617,31 @@ body {
 /*Responsive layout end*/
 
 
+/******************************/
+/*     Back To Top Button     */
+/******************************/
+#myBtn {
+	z-index: 99;
+	right: 20px;
+	width: 52px;
+	height: 52px;
+	bottom: 20px;
+	border: none;
+	outline: none;
+	display: none;
+	position: fixed;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+#myBtn:hover {
+  	background-color: #0f0f11;
+}
+
+#myBtn img {
+	width: 18px;
+	margin-left: 0.125rem;
+	margin-bottom: 0.25rem;
+}
 
