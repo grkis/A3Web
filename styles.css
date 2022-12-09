@@ -199,13 +199,15 @@ list-style: none;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 1.1rem;
 background-color: #573DFC;
 color: #fff;
 }
 
 .nav-links a {
 color: #fff;
+padding-left: 1rem;
+padding-right: 1rem;
+align-items: center;
 }
 
 
@@ -259,6 +261,22 @@ background-color: #573DFC;
 .services:hover .dropdown-content {
 display: block;
 }
+
+/*RESPONSIVE NAVBAR MENU*/
+
+/* CHECKBOX HACK */
+
+input[type=checkbox]{
+  display: none; 
+  }
+  
+  /*HAMBURGER MENU*/
+  
+  .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  }
 
 /* Navigation Dropdown Menu CSS END*/
 
@@ -495,8 +513,7 @@ display: block;
 }
 
 .imageproductchris {
-  max-width: 1000px;
-  height: auto;
+  max-width: 300px;
   width: 100%;
 }
 
