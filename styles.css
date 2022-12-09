@@ -199,7 +199,6 @@ body {
 
  /* Navbar container */
 .navbar {
-  overflow: hidden;
   background-color: #573DFC;
   display: flex;
   justify-content: space-between;
@@ -216,6 +215,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: block;
 }
 
 /* The dropdown container */
