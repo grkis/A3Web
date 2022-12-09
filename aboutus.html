@@ -9,23 +9,22 @@
 <body>
 
     <!-- Navigation Start. Keep this consistent throughout the pages-->
-    <nav>
+    <div class="navbar">
         <div class="logo">GR3 Consulting</div>
-        <div class="nav-items">
-        <a href="index.html">Home</a> 
-        <a href="aboutus.html">About Us</a> 
-        <div class = "dropdown">
-            <button class="dropbtn"> Products </button>
-            <div class = "dropdown-content">
+        <a href="index.html" class = "dropbtn">Home</a>
+        <div class="dropdown" id="minimargin"> <!--minimargin id to give some space next to products without messing with flexbox-->
+          <button class="dropbtn">Products
+          </button>
+          <div class="dropdown-content">
             <a href= "ChrisProduct.html"> Chris</a>
-            <a href= "#"> Grace</a>
-            <a href= "#"> Ryan</a>
+            <a href= "bikeinfrastructure.html"> Grace</a>
+            <a href= "hurricanemanagement.html"> Ryan</a>
             <a href= "WillProduct.html">William</a>
-            </div>
-        </div> 
-        <a href="contact.html">Contact Us</a>
+          </div>
         </div>
-    </nav>
+        <a href="aboutus.html" class = "dropbtn">About Us</a>
+        <a href="contact.html" class = "dropbtn">Contact Us</a>
+      </div>
     <!-- Navigation End. Keep this consistent throughout the pages-->
     
         <div class="container">
@@ -40,7 +39,7 @@
                     <li>Extra Info</li>
                     <li>Extra Info</li>
                 </ul>
-                <button> View Product </button>
+                <button onclick = "GButton()"> View Product </button>
             </div>
             <div class="names">
                 <p>Ryan</p>
@@ -51,7 +50,7 @@
                     <li>Extra Info</li>
                     <li>Extra Info</li>
                 </ul>
-                <button> View Product </button>
+                <button onclick = "RButton()"> View Product </button>
             </div>
             <div class="names">
                 <p>Chris</p>
@@ -62,7 +61,7 @@
                     <li>Extra Info</li>
                     <li>Extra Info</li>
                 </ul>
-                <button> View Product</button>
+                <button onclick = "CButton()"> View Product</button>
             </div>
             <div class="names">
                 <p>William Inglis</p>
@@ -70,7 +69,7 @@
                 <ul>
                     <li>Trip Planner and aspiring aquafit instructor</li>
                 </ul>
-                <button> View Product </button>
+                <button onclick = "WButton()"> View Product </button>
             </div>
             </div>
         </div>
@@ -79,4 +78,5 @@
     
 
 </body>
+<script src="Script.js"></script>
 </html>

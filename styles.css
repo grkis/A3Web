@@ -520,6 +520,25 @@ body {
   text-align: center;
   vertical-align: middle;
 }
+.centerr{
+  justify-content: center;
+  padding: 3rem;
+  color:  #000;
+  align-items: center;
+  text-align: center;
+
+}
+
+.centerr h1 {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+}
+
+.centerr p {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 /*CSS End*/
 
@@ -583,17 +602,21 @@ body {
 }
 
 .container3 {
-  
   margin: 10px;
   width: 250px;
   height: 250px;
+  left: auto;
+  right: auto;
   line-height: 115px;
   text-align: center;
   border: 1px solid black;
 }
 .resize_fit_center {
   max-width:100%;
+  left: auto;
+  right: auto;
   max-height:100%;
+  text-align: center;
   vertical-align: middle;
 }
 
