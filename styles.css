@@ -480,6 +480,7 @@ body {
 .column25 img {
   opacity: 0.8; 
   cursor: pointer; 
+  test
 }
 
 .column25 img:hover {
