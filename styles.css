@@ -124,6 +124,13 @@ body {
     height: 100%;
  }
 
+ .gif{
+  max-width: 480px;
+  max-height: 480px;
+  width: 100%;
+  height: 100%;
+ }
+
  /* Four columns side by side */
 .column {
   float: left;
