@@ -123,7 +123,8 @@ body {
     height: 100%;
  }
 
-/* Meet the team */
+/* CSS End */
+
 
  /**************************/
 /*     Navigation     */
@@ -607,6 +608,66 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+
+#PLayout1{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-right: 120em;
+  margin-left: 120em; 
+}
+
+#HLayout1{
+  display: block;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center; 
+}
+
+#Section{
+  display: block;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#Section2{
+  display: block;
+  font-size: 0.90rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  }
+
+.image1 {
+  width: 60%;
+}
+
+#row2{
+  content: "";
+  display: table;
+  clear: both;
+  color: rgb(255, 255, 255);
+  }
+
+.container3 {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  left: auto;
+  right: auto;
+  line-height: 115px;
+  text-align: center;
+  border: 1px solid black;
+  }
+.resize_fit_center {
+  max-width:100%;
+  left: auto;
+  right: auto;
+  max-height:100%;
+  text-align: center;
+  vertical-align: middle;
+  }
 
 /*CSS End*/
 
