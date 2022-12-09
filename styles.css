@@ -140,7 +140,7 @@ body {
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
@@ -166,22 +166,6 @@ body {
 
 .title {
   color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }
 
 /* CSS End */
