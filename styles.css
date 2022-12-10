@@ -262,7 +262,7 @@ align-items: center;
 justify-content: space-between;
 background-color: #573DFC;
 color: #fff;
-padding: 1rem
+padding: 1.33rem
 }
 
 .nav-links a {
@@ -666,12 +666,26 @@ margin-right: auto;
   text-align: center;
 }
 
+#Section79{
+  display: block;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
 #Section71{
   display: block;
   font-size: 0.90rem;
   color: rgb(0, 0, 0);
   text-align: center;
   }
+
+#Section81{
+  display: block;
+  font-size: 0.90rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+} 
 
 .image1 {
   width: 60%;
