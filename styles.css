@@ -262,7 +262,7 @@ align-items: center;
 justify-content: space-between;
 background-color: #573DFC;
 color: #fff;
-padding: 1.33rem
+padding: 1rem
 }
 
 .nav-links a {
@@ -320,7 +320,7 @@ text-align: center;
 background-color: #573DFC;
 }
 
-.services:hover .dropdown-content {
+.services .dropdown-content:hover {
 display: block;
 }
 
