@@ -501,7 +501,8 @@ input[type=checkbox]{
   }
 
   .image1 {
-  width: 60%;
+  width: 100%;
+  max-width: 1000px
 }
 
 /* CSS END */
