@@ -29,7 +29,7 @@ body {
   }
 
  .background1 {
-    background: #fff;
+    background: white;
  }
   
 .background2 {
@@ -149,7 +149,6 @@ body {
   justify-content: center;
  }
 
- /* Four columns side by side */
  html {
   box-sizing: border-box;
 }
@@ -158,11 +157,12 @@ body {
   box-sizing: inherit;
 }
 
-.column {
-  float: left;
+.columnn {
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 5px;
 }
 
 /* Image dimensions */
@@ -175,17 +175,6 @@ body {
   margin-right: auto;
 }
 
-.textingg {
-  color: Navy;
-  text-align: center;
-}  
-
-.naming {
-  color: black;
-  text-align: center;
-  }
-  
-/* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 770px) {
   .column {
     width: 100%;
@@ -193,22 +182,44 @@ body {
   }
 }
 
-/* Add some shadows to create a card effect */
-.card {
+.cardd {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Clear floats */
-.container::after, .row::after {
+.containerr {
+  padding: 0 16px;
+}
+
+.containerr::after, .roww::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.title {
+.titlee {
   color: grey;
-  text-align: left;
-  
+  text-align: center;
+}
+
+.headerr {
+  color: black;
+  text-align: center;
+}
+
+.button3 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button3:hover {
+  background-color: #555;
 }
 
 /* CSS End */
@@ -714,6 +725,12 @@ line-height: 1.5;
 
 /*CSS Start*/
 
+.header3 {  
+  text-align: center;
+	font-size: 50px;
+	font-family: Garamond;
+}
+
 .background000{
 background: black;
 border-style: solid;
@@ -721,10 +738,12 @@ opacity: 100%;
 align-items: center;
 }
 
-image.centered{
-display: block;
-margin-left: auto;
-margin-right: auto;
+.imagerr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 #PLayout13{
@@ -757,10 +776,6 @@ margin-right: auto;
   text-align: center;
   }
 
-.image12 {
-  width: 60%;
-}
-
 #row21{
   content: "";
   display: table;
@@ -769,15 +784,13 @@ margin-right: auto;
   }
 
 .container31 {
-  margin: 10px;
-  width: 250px;
-  height: 250px;
-  left: auto;
-  right: auto;
-  line-height: 115px;
-  text-align: center;
-  border: 1px solid black;
+  position: relative;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding: 15px;
   }
+
 .resize_fit_center {
   max-width:100%;
   left: auto;
