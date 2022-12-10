@@ -549,7 +549,7 @@ input[type=checkbox]{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  size: 200px;
+  resize: 200px;
   border-radius: 40%;
   }
 
@@ -816,7 +816,6 @@ align-items: center;
 .container31 {
   position: relative;
   justify-content: left;
-  align-items: left;
   text-align: left;
   padding: 15px;
 }
