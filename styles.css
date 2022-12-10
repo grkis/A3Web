@@ -721,10 +721,9 @@ opacity: 100%;
 align-items: center;
 }
 
-image.centered{
+image.floaterl{
 display: block;
-margin-left: auto;
-margin-right: auto;
+float:right;
 }
 
 #PLayout13{
