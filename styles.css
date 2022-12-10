@@ -262,7 +262,7 @@ align-items: center;
 justify-content: space-between;
 background-color: #573DFC;
 color: #fff;
-padding: 1rem;
+padding: 0.8rem;
 }
 
 .nav-links a {
@@ -294,7 +294,6 @@ padding: 8px 14px !important;
 
 .services {
 position: relative;
-padding: 1rem;
 }
 
 /* Dropdown content (hidden by default) */
