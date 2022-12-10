@@ -500,6 +500,13 @@ input[type=checkbox]{
   text-align: center;
   }
 
+  #PLayout3{
+    display: block;
+    font-size: 0.90rem;
+    color: rgb(83, 79, 79);
+    text-align: center;
+    }
+
   .image1 {
   width: 100%;
   max-width: 1000px
