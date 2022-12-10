@@ -789,7 +789,7 @@ align-items: center;
   align-items: left;
   text-align: left;
   padding: 15px;
-  }
+}
 
 .resize_fit_center {
   max-width:100%;
@@ -798,7 +798,20 @@ align-items: center;
   max-height:100%;
   text-align: center;
   vertical-align: middle;
-  }
+}
+
+.columnn3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.roww3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /*CSS End*/
 
