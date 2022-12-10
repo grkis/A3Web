@@ -321,7 +321,7 @@ background-color: #573DFC;
 }
 
 .services:hover .dropdown-content {
-display: block;
+display: block !important; 
 }
 
 /*RESPONSIVE NAVBAR MENU*/
