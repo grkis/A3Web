@@ -1,5 +1,6 @@
 /* DESCRIPTION: CUSTOM JS FILE */
 
+/* OWNER: Ryan. Reference: https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* BACK TO TOP BUTTON */
 
 function scrollFunction() {
@@ -16,6 +17,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+/* OWNER: Grace */
 /* Button*/
 //document.getElementById("myButton").onclick = 
 
