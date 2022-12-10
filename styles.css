@@ -769,6 +769,7 @@ margin-right: auto;
   justify-content: left;
   align-items: left;
   text-align: left;
+  padding: 15px;
   }
 
 .resize_fit_center {
