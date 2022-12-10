@@ -493,7 +493,7 @@ input[type=checkbox]{
   text-align: center; 
   }
 
-  .PLayout2{
+  #PLayout2{
   display: block;
   font-size: 0.90rem;
   color: rgb(83, 79, 79);
