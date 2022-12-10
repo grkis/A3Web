@@ -680,6 +680,13 @@ margin-right: auto;
   text-align: center;
   }
 
+#Section71{
+  display: block;
+  font-size: 0.90rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+} 
+
 .image1 {
   width: 60%;
 }
