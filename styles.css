@@ -262,12 +262,12 @@ align-items: center;
 justify-content: space-between;
 background-color: #573DFC;
 color: #fff;
+padding: 1.33rem;
 }
 
 .nav-links a {
 color: #fff;
-padding-left: 1rem;
-padding-right: 1rem;
+padding: 1rem;
 align-items: center;
 }
 
@@ -277,6 +277,7 @@ align-items: center;
 display: flex;
 gap: 1em;
 font-size: 18px;
+padding: 1rem;
 }
 
 .menu li:hover {
