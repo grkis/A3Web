@@ -307,7 +307,7 @@ position: relative;
 }
 
 .dropdown-content li + li {
-margin-top: 16px;
+margin-top: 10px;
 }
 
 .dropdown-content li {
