@@ -161,8 +161,8 @@ body {
 .column {
   float: left;
   width: 25%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+  margin-bottom: 8px;
+  padding: 3px;
 }
 
 /* Image dimensions */
