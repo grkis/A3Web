@@ -320,7 +320,7 @@ text-align: center;
 background-color: #573DFC;
 }
 
-.services .dropdown-content:hover {
+.services:hover .dropdown-content {
 display: block;
 }
 
